@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); /* imported roboto font from google fonts web code */
+*{ /* selects all items */
+    font-family: "roboto";
+}
+body{
+    background-color: #212121;
+}
+h1{
+    color: white;
+}
+.container{
+    background-color: #585858;
+    width: 400px;
+    padding: 30px; /* makes the text in the container not touch the edges of the container by that much also kinda increases size*/
+    margin: 100px auto; /* makes it it seperated by everything and centered vs padding its like space outside border here and padding is space inside border*/
+    text-align: center;
+    border-radius: 10px;
+}
+.input-area input{ /*finds the input in input area class */
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+.input-area button{ /*finds the button in input area class */
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.input-area button:hover{ /* when you hover over the button */
+    cursor: pointer; /* makes the cursor change to the pointer version when you hover over the button */
+    box-shadow: 0px 5px 10px black;
+}
+
+.input-area button:active{ /* when you click the button */
+    opacity: 0.8;
+}
+ul{
+    margin-bottom:50px;
+}
+li{
+    list-style: none; /* removes the bullet point or u can make it wtv u want even an uploaded png file or smt*/
+    display:flex; /* lines stuff up on its own*/ 
+    gap: 20px; /* sets gap, you could do gap :30px 15px to edit row and column height individually*/
+    justify-content: end; /* moves it to center front or end so left right or middle*/
+    /*width: 50%;*/
+     /*margin-right: 200px; /* seperated on outside like other margin but specifcally to the right*/
+     color:white;
+}
+button{
+    background-color: rgb(154, 53, 53);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    cursor:pointer;
+    opacity: 0.8;
+}
+li button{
+    
+}
